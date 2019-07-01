@@ -1,0 +1,5 @@
+balajisa=int(input())
+sa=list(map(int,input().split()[:balajisa]))
+sa.sort()
+que=int((len(sa))/2)
+print(sa[que])
